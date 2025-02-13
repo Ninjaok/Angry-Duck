@@ -8,6 +8,8 @@
 
 ## Índice
 - [Índice](#índice) 
+- [Elementos do Grupo](#elementos-do-grupo)
+- [Objetivo do Projeto](#objetivo-do-projeto)
 - [Descrição](#descrição)
     - [Motivação](#motivação)
     - [Objetivo](#objetivo)
@@ -16,7 +18,6 @@
     - [Localização](#localização)
         - [Requisitos da Localização](#requisitos-da-localização)
         - [Localização Escolhida](#localização-escolhida)
-
 - [Plano de Infraestrutura dos Edifícios](#plano-de-infraestrutura-do-edifício)
     - [Edifício Principal](#edifício-principal)
         - [Rés do Chão](#rés-do-chão)
@@ -24,16 +25,18 @@
         - [Segundo Andar](#segundo-andar)
         - [Terceiro Andar](#terceiro-andar)
         - [Quarto Andar](#quarto-andar)
-- cinco
-- seis
-- sete
-- oito
-- nove
-- dez
+- [Edifício Secundário](#edifício-secundário)
+    - [Escritório de Monitoramento](#escritório-de-monitoramento)
+    - [Viveiros](#viveiros)
 
 ## Elementos do Grupo
-- Luan Kacio da Silva Ribeiro - 20230989
-- Adjami Victor de Carvalho Regula - 20231145
+
+- **Luan Kacio da Silva Ribeiro** - 20230989
+- **Adjami Victor de Carvalho Regula** - 20231145
+
+## Objetivo do Projeto
+
+O objetivo deste projeto é criar um plano de infraestrutura de rede para os edifícios da **Angry Duck**, incluindo o edifício principal e um edifício secundário. O plano deve contemplar a distribuição dos equipamentos de rede, a conectividade entre os diferentes andares e áreas, a segurança da rede, a redundância de conexão e a integração com tecnologias de monitoramento e automação, utilizando o **Cisco Packet Tracer** para simulação e modelagem da rede.
 
 ## Descrição
 A **Angry Duck** é uma empresa dedicada à produção e fornecimento de produtos avícolas, comprometida com o bem-estar animal e a sustentabilidade. Nossa missão é oferecer ovos, carne, penas e outros derivados com máxima qualidade, garantindo um processo de criação responsável que reduz o estresse dos animais.  
@@ -70,21 +73,21 @@ Nosso objetivo vai além de fornecer produtos de qualidade queremos transformar 
 
 ### Localização
 
-#### Requisitos da Localização
+#### Requisitos da Localização  
 
-- **Localização:** Campus próximo a Coimbra, com capacidade para expansão.
-- **Edifício Principal:**
-  - 6 andares, capacidade para ~100 funcionários (duplicação prevista em 3 anos).
-  - Backbone duplo, com bastidores por andar interligados ao piso 1.
-  - 4 pontos de acesso sem fio por andar.
-  - Datacenter no piso 0 (160 m²), centralizando as comunicações.
+- **Localização:** Campus situado próximo a Coimbra, com potencial de expansão.  
+- **Edifício Principal:**  
+  - 6 andares, projetado para acomodar aproximadamente 100 funcionários, com previsão de duplicação em três anos.  
+  - Infraestrutura de rede com backbone duplo, bastidores distribuídos por andar e conectados ao piso 1.  
+  - Cobertura Wi-Fi com quatro pontos de acesso por andar.  
+  - Datacenter localizado no piso 0 (160 m²), atuando como centro de comunicações.  
+- **Edifício Secundário:**  
+  - **Centralização:** Conectividade de internet e rede integradas ao Datacenter do edifício principal.  
+  - **Expansão:** Estrutura preparada para suportar o crescimento do campus e a construção de novos edifícios.  
 
-- **Edifício Secundario:**
-    - **Centralização:** Acesso à internet e rede centralizados no Datacenter.
-    - **Expansão:** Infraestrutura preparada para crescimento futuro do campus e novos edifícios.
+#### Localização Escolhida  
 
-#### Localização Escolhida
-Devido aos requisitos, escolhemos um [terreno](https://www.idealista.pt/imovel/33768148/) de 15.300 m², que possibilita a construção de ambos os edifícios. O valor do terreno é de 150.000,00 euros, conforme informações do site [Idealista.pt](https://www.idealista.pt).
+Com base nesses requisitos, selecionamos um [terreno](https://www.idealista.pt/imovel/33768148/) de 15.300 m², que oferece espaço adequado para a construção dos edifícios planejados. O valor do terreno é de 150.000,00 euros, conforme informações do site [Idealista.pt](https://www.idealista.pt).
 
 ## Plano de Infraestrutura do Edifício
 
@@ -111,3 +114,9 @@ Devido aos requisitos, escolhemos um [terreno](https://www.idealista.pt/imovel/3
     - **Quarto Andar**
         - **Financeiro:** 100 m², com escritórios e sala de reuniões.
         - **Diretoria:** 100 m², com escritórios e sala de reuniões.
+
+- **Edifício Secundário:**
+    - **Escritorio de Monitoramento:** 50 m², com estações de trabalho e monitores.
+    - **Edifício Secundário:**
+        - **Escritório de Monitoramento:** 50 m², com estações de trabalho e monitores.
+        - **Viveiros:** 30 m² cada, para criação e monitoramento das aves.
