@@ -31,12 +31,12 @@
 
 ## Elementos do Grupo
 
-- **Luan Kacio da Silva Ribeiro** - 20230989
-- **Adjami Victor de Carvalho Regula** - 20231145
+- **[Luan Kacio da Silva Ribeiro](https://github.com/Ninjaok)** - 20230989
+- **[Adjami Victor de Carvalho Regula](https://github.com/CFZ13)** - 20231145
 
 ## Objetivo do Projeto
 
-O objetivo deste projeto é criar um plano de infraestrutura de rede para os edifícios da **Angry Duck**, incluindo o edifício principal e um edifício secundário. O plano deve contemplar a distribuição dos equipamentos de rede, a conectividade entre os diferentes andares e áreas, sistema de automaçao IOT utilizando o **Cisco Packet Tracer** para simulação e modelagem da rede.
+O objetivo deste projeto é criar um plano de infraestrutura de rede para os edifícios da **Angry Duck**, incluindo o edifício principal e um edifício secundário. O plano deve contemplar a distribuição d  os equipamentos de rede, a conectividade entre os diferentes andares e áreas, sistema de automaçao IOT utilizando o **Cisco Packet Tracer** para simulação e modelagem da rede.
 
 ## Descrição
 A **Angry Duck** é uma empresa dedicada à produção e fornecimento de produtos avícolas, comprometida com o bem-estar animal e a sustentabilidade. Nossa missão é oferecer ovos, carne, penas e outros derivados com máxima qualidade, garantindo um processo de criação responsável que reduz o estresse dos animais.  
@@ -73,7 +73,7 @@ Nosso objetivo vai além de fornecer produtos de qualidade queremos transformar 
 
 ### Localização
 
-#### Requisitos da Localização  
+#### [Requisitos da Localização](/Documentos/Redes%20Projeto.pdf)
 
 - **Localização:** Campus situado próximo a Coimbra, com potencial de expansão.  
 - **Edifício Principal:**  
@@ -120,3 +120,5 @@ Com base nesses requisitos, selecionamos um [terreno](https://www.idealista.pt/i
     - **Edifício Secundário:**
         - **Escritório de Monitoramento:** 50 m², com estações de trabalho e monitores.
         - **Viveiros:** 30 m² cada, para criação e monitoramento das aves.
+
+## Equipamentos de Rede
