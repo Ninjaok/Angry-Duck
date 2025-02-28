@@ -1,8 +1,8 @@
-# Angry Duck - [IADE](https://www.iade.europeia.pt/) - [UE](https://www.europeia.pt/)
+# [Angry Duck](https://github.com/Ninjaok/Angry-Duck) - [IADE](https://www.iade.europeia.pt/) - [UE](https://www.europeia.pt/)
 
-**Universidade:** [Universidade Europeia](https://www.europeia.pt/)
+**Universidade:** [Universidade Europeia](https://www.europeia.pt/)  
 **Faculdade:** [IADE - Faculdade de Design, Tecnologia e Comunicação](https://www.iade.europeia.pt/)  
-**Curso:** [Engenharia Informática](https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/)
+**Curso:** [Engenharia Informática](https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/)  
 **Disciplina:** Redes e Comunicações de Dados  
 **Professor:** [Pedro Miguel Gomes Silva Rosa](https://www.linkedin.com/in/pedro-mgs-rosa/?originalSubdomain=pt)
 
