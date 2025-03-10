@@ -74,7 +74,7 @@ Nosso objetivo vai além de fornecer produtos de qualidade queremos transformar 
 
 ### Localização
 
-#### [Requisitos da Localização](/Documentos/Redes%20Projeto.pdf)
+#### [Requisitos da Localização](/Documentos/Briefing.pdf)
 
 - **Localização:** Campus situado próximo a Coimbra, com potencial de expansão.  
 - **Edifício Principal:**  
