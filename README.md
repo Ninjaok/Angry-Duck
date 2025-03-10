@@ -29,7 +29,7 @@
 
 ## Elementos do Grupo
 
-- **[Luan Kacio da Silva Ribeiro](https://github.com/Ninjaok)** - 20230989
+- **[Luan Kacio da Silva Ribeiro](https://github.com/Ninjaok)** - 20230689
 - **[Adjami Victor de Carvalho Regula](https://github.com/CFZ13)** - 20231145
 
 ## Objetivo do Projeto
