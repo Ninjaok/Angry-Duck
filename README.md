@@ -19,13 +19,18 @@
   - [Localização](#localização)
     - [Requisitos da Localização](#requisitos-da-localização)
     - [Localização Escolhida](#localização-escolhida)
-- [Plano de Infraestrutura dos Edifícios](#plano-de-infraestrutura-do-edifício)
+- [Infraestrutura do Edifício](#infraestrutura-do-edifício)
+- [Sistema de IoT](#sistema-de-iot)
+  - [Sistema de Emergência para Gases Nocivos](#sistema-de-emergência-para-gases-nocivos)
+  - [Sistema de Incêndio](#sistema-de-incêndio)
+  - [Sistema de Segurança](#sistema-de-segurança)
+  - [Sistema de Controle de Temperatura](#sistema-de-controle-de-temperatura)
 - [Equipamentos de Rede](#equipamentos-de-rede)
   - [Redes Interna](#redes-interna)
   - [Redes Externa](#redes-externa)
 - [Resumo da Infraestrutura de Rede](#resumo-da-infraestrutura-de-rede)
-  - [Resumo das Redes Internas](#resumo-das-redes-internas)
-  - [Resumo das Redes Externas](#resumo-das-redes-externas)
+  - [Resumo Redes Internas](#resumo-redes-internas)
+  - [Resumo Redes Externa](#resumo-redes-externa)
 
 ## Elementos do Grupo
 
@@ -34,7 +39,7 @@
 
 ## Objetivo do Projeto
 
-O objetivo deste projeto é criar um plano de infraestrutura de rede para os edifícios da **Angry Duck**, incluindo o edifício principal e um edifício secundário. O plano deve contemplar a distribuição d  os equipamentos de rede, a conectividade entre os diferentes andares e áreas, sistema de automaçao IOT utilizando o **Cisco Packet Tracer** para simulação e modelagem da rede.
+O objetivo deste projeto foi criar um plano de infraestrutura de rede para os edifícios da **Angry Duck**, incluindo o edifício principal e um edifício secundário. O plano contemplou a distribuição dos equipamentos de rede, a conectividade entre os diferentes andares e áreas, além de um sistema de automação IoT, utilizando o **Cisco Packet Tracer** para simulação e modelagem da rede.
 
 ## Descrição
 
@@ -90,7 +95,7 @@ Nosso objetivo vai além de fornecer produtos de qualidade queremos transformar 
 
 Com base nesses requisitos, selecionamos um [terreno](https://www.idealista.pt/imovel/33768148/) de 15.300 m², que oferece espaço adequado para a construção dos edifícios planejados. O valor do terreno é de 150.000,00 euros, conforme informações do site [Idealista.pt](https://www.idealista.pt).
 
-## Plano de Infraestrutura do Edifício
+## Infraestrutura do Edifício
 
 - **Edifício Principal:**  
 
@@ -120,153 +125,176 @@ Com base nesses requisitos, selecionamos um [terreno](https://www.idealista.pt/i
     - **Escritório de Monitoramento:** 50 m², com estações de trabalho e monitores.
     - **Viveiros:** 30 m² cada, para criação e monitoramento das aves.
 
+## Sistema de IoT
+
+O sistema de IoT foi dividido em quatro partes principais: sistema de emergência para detecção de gases nocivos, sistema de incêndio, sistema de segurança e sistema de controle de temperatura.
+
+Para facilitar a implementação e a manutenção, os sistemas foram organizados de forma modular. Cada um desses módulos estará presente em todos os andares do edifício principal, no edifício secundário e também em áreas específicas já designadas, como os viveiros.
+
+### Sistema de Emergência para Gases Nocivos
+
+Este sistema tem como objetivo detectar a presença de gases perigosos no ambiente e atuar automaticamente para garantir a segurança. Ele é composto por:
+
+- Sensor de CO₂
+- Sensor de CO
+- Sirene de alarme
+- Sistema de ventilação autônoma
+- Janelas de ventilação automatizadas
+
+### Sistema de Incêndio
+
+Projetado para identificar focos de incêndio e responder rapidamente para minimizar danos. Seus componentes incluem:
+
+- Sensor de incêndio
+- Sprinklers automáticos
+
+### Sistema de Segurança
+
+Responsável pelo controle de acesso e monitoramento de áreas restritas. Os principais elementos são:
+
+- Portas de acesso automatizadas
+- Leitor de cartões RFID
+
+### Sistema de Controle de Temperatura
+
+Esse sistema regula o ambiente térmico interno, proporcionando conforto e economia de energia. É composto por:
+
+- Sensor de temperatura
+- Central de controle de temperatura
+- Ar-condicionado
+- Aquecedor
+
 ## Equipamentos de Rede
 
 ### **Redes Interna**
 
-- **Rés do Chão**
-  - **Switch**
-    - **Datacenter** Switch
-      - Computador Pessoal (PC)
-      - Servidor DNS
+#### **Rés do Chão**
+
+- **Switch**
+  - **Datacenter**
+    - **Switch**
+      - Servidor D-NS
       - Servidor FTP
-      - Servidor E-mail
+      - Servidor Email
       - Servidor DHCP
       - Servidor Web
       - Servidor IOT
-      - IOT's
-        - Sistema de Sirene de Emergência
-        - Detector de Incendio
-        - Detector de Oxigênio
-        - Ar Condicionado
-        - Detector de CO2
-        - Detector de CO
+      - **IOT's**
+        - Sistema de Emergência de Gases Nocivos
+        - Sistema de Incêndio
+        - Sistema de Segurança
+        - Sistema de Controle de Temperatura
 
-    - **Recepção:**
-      - Computador Pessoal (PC)
-      - Impressora
-      - IOT's
-        - Detector de Incendio
-        - Detector de Oxigênio
-        - Ar Condicionado
-        - Detector de CO2
-        - Detector de CO
-        - Impressora
-
-    - **Loja:**
-      - Computador Pessoal (PC)
-      - Impressora
-      - IOT's
-        - Detector de Incendio
-        - Detector de Oxigênio
-        - Ar Condicionado
-        - Detector de CO2
-        - Detector de CO
-        - Impressora
-
-- **Primeiro Andar**
-  - **Switch**
-    - **Escritórios Administrativos:**
-      - Computador Pessoal (3 PC)
-    - **Recursos Humanos:**
-      - Computador Pessoal (3 PC)
-    - **Vendas:**
-      - Computador Pessoal (3 PC)
+  - **Recepção**
+    - Computador Pessoal (PC 1)
     - **IOT's**
-      - Detector de Incendio
-      - Detector de Oxigênio
-      - Ar Condicionado
-      - Detector de CO2
-      - Detector de CO
-      - Impressora
+      - Sistema de Emergência de Gases Nocivos
+      - Sistema de Incêndio
+      - Sistema de Segurança
+      - Sistema de Controle de Temperatura
 
-- **Segundo Andar**
-  - **Switch**
-    - **Controle de Qualidade:**
-      - Computador Pessoal (3 PC)
-    - **Pesquisa e Desenvolvimento**
-      - Computador Pessoal (3 PC)
+  - **Loja**
+    - Computador Pessoal (PC 2)
     - **IOT's**
-      - Detector de Incendio
-      - Detector de Oxigênio
-      - Ar Condicionado
-      - Detector de CO2
-      - Detector de CO
-      - Impressora
+      - Sistema de Emergência de Gases Nocivos
+      - Sistema de Incêndio
+      - Sistema de Segurança
+      - Sistema de Controle de Temperatura
 
-- **Terceiro Andar**
-  - **Switch**
-    - **TI e Suporte**
-      - Computador Pessoal (3 PC)
-    - **Marketing**
-      - Computador Pessoal (3 PC)
+#### **Primeiro Andar**
+
+- **Switch**
+  - **Escritórios Administrativos**
+    - Computador Pessoal (3 PCs)
+  - **Recursos Humanos**
+    - Computador Pessoal (3 PCs)
+  - **Vendas**
+    - Computador Pessoal (3 PCs)
+  - **IOT's**
+    - Sistema de Emergência de Gases Nocivos
+    - Sistema de Incêndio
+    - Sistema de Segurança
+    - Sistema de Controle de Temperatura
+
+#### **Segundo Andar**
+
+- **Switch**
+  - **Controle de Qualidade**
+    - Computador Pessoal (3 PCs)
+  - **Pesquisa e Desenvolvimento**
+    - Computador Pessoal (3 PCs)
+  - **IOT's**
+    - Sistema de Emergência de Gases Nocivos
+    - Sistema de Incêndio
+    - Sistema de Segurança
+    - Sistema de Controle de Temperatura
+
+#### **Terceiro Andar**
+
+- **Switch**
+  - **TI e Suporte**
+    - Computador Pessoal (3 PCs)
+  - **Marketing**
+    - Computador Pessoal (3 PCs)
+- **IOT's**
+  - Sistema de Emergência de Gases Nocivos
+  - Sistema de Incêndio
+  - Sistema de Segurança
+  - Sistema de Controle de Temperatura
+
+#### **Quarto Andar**
+
+- **Switch**
+  - **Financeiro**
+    - Computador Pessoal (3 PCs)
+  - **Diretoria**
+    - Computador Pessoal (3 PCs)
+- **IOT's**
+  - Sistema de Emergência de Gases Nocivos
+  - Sistema de Incêndio
+  - Sistema de Segurança
+  - Sistema de Controle de Temperatura
+
+#### **Edifício Secundário**
+
+- **Switch**
+  - **Escritório de Monitoramento**
+    - Computadores de Controle (3 PCs)
     - **IOT's**
-      - Detector de Incendio
-      - Detector de Oxigênio
-      - Ar Condicionado
-      - Detector de CO2
-      - Detector de CO
-      - Impressora
-
-- **Quarto Andar**
-  - **Switch**
-    - **Financeiro**
-      - Computador Pessoal (3 PC)
-    - **Diretoria**
-      - Computador Pessoal (3 PC)
+      - Sistema de Emergência de Gases Nocivos
+      - Sistema de Incêndio
+      - Sistema de Segurança
+      - Sistema de Controle de Temperatura
+  - **Viveiros**
     - **IOT's**
-      - Detector de Incendio
-      - Detector de Oxigênio
-      - Ar Condicionado
-      - Detector de CO2
-      - Detector de CO
-      - Impressora
-
-- **Edifício Secundário**
-  - **Switch**
-    - **Escritório de Monitoramento**
-      - Computadores de Controle
-      - IOT's
-        - Sistema de Sirene de Emergência
-        - Detector de Incendio
-        - Detector de Oxigênio
-        - Ar Condicionado
-        - Detector de CO2
-        - Detector de CO
-        - Porta de Acesso
-    - **Viveiros**
-        IOT's
-      - Sistema de Sirene de Emergência
-      - Detector de Incendio
-      - Detector de Oxigênio
-      - Ar Condicionado
-      - Detector de CO2
-      - Detector de CO
-      - Porta de Acesso
+      - Sistema de Emergência de Gases Nocivos
+      - Sistema de Incêndio
+      - Sistema de Segurança
+      - Sistema de Controle de Temperatura
 
 ### **Redes Externa**
 
 - **Sites Externos**
-  - **Servidor DNS**  
-  - **Servidor Web**
-    - **Google**
+  - **Router**
+    - **Switch**
+      - **Servidor**
+        - `www.google.com`
+        - `www.portal.pt`
 
 ## Resumo da Infraestrutura de Rede
 
-### **Resumo das Redes Internas**
+### **Resumo Redes Internas**  
 
-- **2 Routers** (Prédio 1 e Edifício Secundário)
-- **8 Switches** (1 por andar + térreo + Edifício Secundário)
-- **6 Servidores** (DNS, FTP, E-mail, DHCP, Web, IoT)
-- **37 Computadores** (Administrativo, Suporte, Monitoramento, etc.)
-- **6 Impressoras**
-- **44 Dispositivos IoT**, incluindo:
-  - Sensores (Incêndio, Oxigênio, CO2, CO)
-  - Ar-condicionado
-  - Sirenes de Emergência
-  - Sensores de Porta
+- **2 Roteadores**
+- **9 Switches**
+- **6 Servidores**
+- **39 Computadores**
+- **44 IoTs**
 
-### **Resumo das Redes Externas**
+### **Resumo Redes Externa**
 
-- **1 Servidor DNS**
-- **1 Servidor Web**
+- **1 Roteador**
+- **1 Switch**
+- **2 Servidores Externos**  
+  - `www.google.com`
+  - `www.portal.pt`  
