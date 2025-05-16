@@ -31,6 +31,7 @@
 - [Resumo da Infraestrutura de Rede](#resumo-da-infraestrutura-de-rede)
   - [Resumo Redes Internas](#resumo-redes-internas)
   - [Resumo Redes Externa](#resumo-redes-externa)
+-[Notas Adcionais](#notas-adicionais)
 
 ## Elementos do Grupo
 
@@ -298,3 +299,7 @@ Esse sistema regula o ambiente térmico interno, proporcionando conforto e econo
 - **2 Servidores Externos**  
   - `www.google.com`
   - `www.portal.pt`  
+
+## Notas Adcionais
+
+- A empresa foi concebida com foco em futuras expansões, e a quantidade apresentada neste projeto representa apenas os **requisitos mínimos** necessários para seu funcionamento inicial.
